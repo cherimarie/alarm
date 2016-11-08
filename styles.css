@@ -1,0 +1,20 @@
+/*
+  TODO: Improve the styling of this page.
+  See: http://w3schools.pro.edu/css/css_form.asp;
+*/
+
+
+/*
+  Use these classes to implement the rainbowAlert method in js file.
+*/
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
