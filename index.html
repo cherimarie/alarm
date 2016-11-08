@@ -10,17 +10,16 @@
   <body>
     <h1>Make Your Own Alarm Clock!</h1>
 
-    <!--
-      User selects number of seconds they'd like to set an alarm for,
-      and the type of alert they'd like to recieve when the time is up.
-    -->
-
     <form id="alarm-form">
+      <!--
+        User selects number of seconds they'd like to set an alarm for,
+        and the type of alert they'd like to recieve when the time is up.
+      -->
       <label for="seconds">How many seconds from now would you like alarm to go off?</label>
-      <input type="text" name="seconds">
+      <input type="text" name="seconds" id="seconds">
 
       <label for="alarm-alert">How should we alert you when time is up?</label>
-      <select name="alarm-alert">
+      <select name="alarm-alert" id="alarm-alert">
         <option value="popup">Popup alert</option>
         <option value="console">Log to the console</option>
         <option value="rainbow">Flashing colors</option>
